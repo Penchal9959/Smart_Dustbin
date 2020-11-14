@@ -13,6 +13,8 @@ Components:
 8.12v DC power Adapter
 9.Solar Panels
 10.DC-to-DC converters
+11.DB9 Connectors
+12.PCB
 
 
 Skills Used:
