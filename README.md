@@ -21,3 +21,19 @@ Skills Used:
 
 1.Arduino IDE
 2.SIM900A module Libraries
+
+
+---
+
+> **Superseded.** This project now lives in
+> [embedded-iot-projects](https://github.com/Penchal9959/embedded-iot-projects) alongside eleven
+> other builds.
+
+## SMS destination numbers
+
+The `AT+CMGS` commands use `+91XXXXXXXXXX` placeholders. Set your own destination numbers before
+flashing.
+
+> **Privacy note.** Earlier versions of this repository contained real mobile numbers hardcoded in
+> the sketch. They have been purged from the entire git history, but were publicly readable for
+> several years.
