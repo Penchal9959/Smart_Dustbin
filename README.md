@@ -1,4 +1,17 @@
-# Smart_Dustbin
+# Smart Dustbin
+
+> **This repository is archived.** The reviewed and corrected version
+> of this project lives in [embedded-iot-projects / smart-dustbin](https://github.com/Penchal9959/embedded-iot-projects/tree/main/smart-dustbin), alongside the
+> others from the same series. Work happens there; nothing here changes.
+
+### Why you want the maintained copy
+
+A mobile number was hard-coded in the GSM alert. It has been removed from this repository's history and replaced with a placeholder in the maintained copy.
+
+---
+
+## Original description
+
 Smart dustbins are used to maintain the villages very clean. We can place them at street corners. When ever the people come close to the dustbin to put the dust, the door will automatically opens. When the dustbin filled with 75% of dust one message will be sent to the municipality cleaner. If he ignores that message, the dustbin will be filled with 100% dust, then another message will be sent to the head of municipal corporation, with Location of the Dustbin.
 
 Components:
