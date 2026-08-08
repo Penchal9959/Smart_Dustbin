@@ -1,52 +1,33 @@
 # Smart Dustbin
 
-> **This repository is archived.** The reviewed and corrected version
-> of this project lives in [embedded-iot-projects / smart-dustbin](https://github.com/Penchal9959/embedded-iot-projects/tree/main/smart-dustbin), alongside the
-> others from the same series. Work happens there; nothing here changes.
+> **Archived.** The reviewed and corrected version of this project lives in
+> [embedded-iot-projects / smart-dustbin](https://github.com/Penchal9959/embedded-iot-projects/tree/main/smart-dustbin), alongside the others from the same series. Work happens there;
+> nothing here changes.
 
-### Why you want the maintained copy
+## What this was
 
-A mobile number was hard-coded in the GSM alert. It has been removed from this repository's history and replaced with a placeholder in the maintained copy.
+A public bin that opens its own lid and asks to be emptied. An ultrasonic
+sensor on the front detects someone approaching and a servo lifts the lid; a
+second sensor inside measures the fill level and texts the cleaner at 75% full,
+escalating to their supervisor at 100%.
 
----
+## Hardware
 
-## Original description
+Arduino UNO, two HC-SR04 ultrasonic sensors, SG90 servo, SIM900A GSM module.
 
-Smart dustbins are used to maintain the villages very clean. We can place them at street corners. When ever the people come close to the dustbin to put the dust, the door will automatically opens. When the dustbin filled with 75% of dust one message will be sent to the municipality cleaner. If he ignores that message, the dustbin will be filled with 100% dust, then another message will be sent to the head of municipal corporation, with Location of the Dustbin.
+## Known defects
 
-Components:
+A mobile number was hard-coded in the GSM alert. It has been removed from this
+repository's history; the maintained copy takes it from a configuration
+constant at the top of the sketch.
 
-1.Arduino UNO
-2.GSM SIM900A Module
-3.IR Sensors
-4.Buzzer
-5.Led's
-6.16x2 LCD
-7.9v Battery
-8.12v DC power Adapter
-9.Solar Panels
-10.DC-to-DC converters
-11.DB9 Connectors
-12.PCB
+## Why it was archived
 
+Twelve one-off repositories of two files each is not a portfolio, it is a
+list. They were consolidated into one maintained repository with the
+documentation and the build check they never had. This one is kept so
+existing links still resolve.
 
-Skills Used:
+## Licence
 
-1.Arduino IDE
-2.SIM900A module Libraries
-
-
----
-
-> **Superseded.** This project now lives in
-> [embedded-iot-projects](https://github.com/Penchal9959/embedded-iot-projects) alongside eleven
-> other builds.
-
-## SMS destination numbers
-
-The `AT+CMGS` commands use `+91XXXXXXXXXX` placeholders. Set your own destination numbers before
-flashing.
-
-> **Privacy note.** Earlier versions of this repository contained real mobile numbers hardcoded in
-> the sketch. They have been purged from the entire git history, but were publicly readable for
-> several years.
+[MIT](LICENSE)
